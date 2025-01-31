@@ -9,14 +9,12 @@ color teal_200
 color teal_700
 color white
 drawable ic_launcher_foreground
-id barcode_scanner
 id buttonScan
 id buttonVerify
 id editTextStudentId
 id progressBar
 id textViewResult
 layout activity_main
-layout activity_qrscanner
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

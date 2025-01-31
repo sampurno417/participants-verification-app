@@ -4,19 +4,19 @@
         "source": "com.example.myapplication.app-main-35:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.myapplication.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\sampu\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-debug-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sampu\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-main-35:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-33:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.myapplication.app-main-35:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\sampu\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\sampu\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.myapplication.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\sampu\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\sampu\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-main-35:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-33:/layout_activity_qrscanner.xml.flat",
-        "source": "com.example.myapplication.app-main-35:/layout/activity_qrscanner.xml"
+        "merged": "C:\\Users\\sampu\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sampu\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
     }
 ]

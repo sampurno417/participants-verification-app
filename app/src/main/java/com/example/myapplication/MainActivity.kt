@@ -81,10 +81,16 @@ class MainActivity : AppCompatActivity() {
 
         lifecycleScope.launch(Dispatchers.Main) {
             try {
-                val responseMessage = withContext(Dispatchers.IO) {
+                val response = withContext(Dispatchers.IO) {
                     ApiService.turnInStudent(studentId)
                 }
-                textViewResult.text = responseMessage
+                textViewResult.text = """
+                    ${response.message}
+                    Name: ${response.name ?: "N/A"}
+                    Roll: ${response.roll ?: "N/A"}
+                    Year: ${response.year ?: "N/A"}
+                    College: ${response.college ?: "N/A"}
+                """.trimIndent()
             } catch (e: Exception) {
                 textViewResult.text = "Error: ${e.message}"
             } finally {
@@ -97,4 +103,3 @@ class MainActivity : AppCompatActivity() {
         private const val REQUEST_CODE_QR_SCAN = 101
     }
 }
-

@@ -33,15 +33,15 @@ interface ApiService {
 
         private val service: ApiService = retrofit.create(ApiService::class.java)
 
-        suspend fun turnInStudent(id: String): String {
+        suspend fun turnInStudent(id: String): ApiResponse {
             return try {
                 Log.d(TAG, "Turning in student with ID: $id")
                 val response = service.turnInStudent(TurnInRequest(id))
-                Log.d(TAG, "Turn in response: ${response.message}")
-                response.message
+                Log.d(TAG, "Turn in response: $response")
+                response
             } catch (e: Exception) {
                 Log.e(TAG, "Error turning in student: ${e.message}", e)
-                "Network error: ${e.message}"
+                ApiResponse("Network error: ${e.message}", null, null, null, null)
             }
         }
     }
@@ -51,5 +51,10 @@ interface ApiService {
 data class TurnInRequest(val id: String)
 
 // Response model
-data class ApiResponse(val message: String)
-
+data class ApiResponse(
+    val message: String,
+    val name: String?,
+    val roll: String?,
+    val year: String?,
+    val college: String?
+)
