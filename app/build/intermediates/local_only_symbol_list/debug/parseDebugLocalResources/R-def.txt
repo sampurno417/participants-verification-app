@@ -10,6 +10,7 @@ color teal_700
 color white
 drawable ic_launcher_foreground
 id barcode_scanner
+id buttonScan
 id buttonVerify
 id editTextStudentId
 id progressBar

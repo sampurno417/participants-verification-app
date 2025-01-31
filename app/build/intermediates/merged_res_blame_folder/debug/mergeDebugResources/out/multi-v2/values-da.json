@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-30:/values-da/values-da.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-31:/values-da/values-da.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\sampu\\.gradle\\caches\\8.10.2\\transforms\\adb2125d685ed9e298de478e41501536\\transformed\\zxing-android-embedded-4.3.0\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,307",
+                        "endColumns": "58,46,145,109",
+                        "endOffsets": "109,156,302,412"
+                    },
+                    "to": {
+                        "startLines": "110,111,112,113",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "9276,9335,9382,9528",
+                        "endColumns": "58,46,145,109",
+                        "endOffsets": "9330,9377,9523,9633"
+                    }
+                },
                 {
                     "source": "C:\\Users\\sampu\\.gradle\\caches\\8.10.2\\transforms\\87f90b501376ea3ef5b4667c8ee52040\\transformed\\appcompat-1.6.1\\res\\values-da\\values-da.xml",
                     "from": {

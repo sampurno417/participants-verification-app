@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-30:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-31:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
                     "source": "C:\\Users\\sampu\\.gradle\\caches\\8.10.2\\transforms\\faf75ffa1b0d1d8db08a2de8635ab0e9\\transformed\\material-1.10.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",

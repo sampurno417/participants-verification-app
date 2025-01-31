@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\faf75ffa1b0d1d8db08a2de8635ab0e9\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sampu\.gradle\caches\8.10.2\transforms\8f922e34dd6d630cdb0fc7934aa2a985\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\sampu\.gradle\caches\8.10.2\transforms\df9bd5d1176f505282d12a7048c9f48f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -34,6 +34,7 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\sampu\.gradle\caches
 MERGED from [androidx.core:core:1.12.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\ab80fb921d888d63a7104e6ccf1d4e11\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\sampu\.gradle\caches\8.10.2\transforms\e3b5a8328f9cd43bdfe1a17c1a968fe8\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\sampu\.gradle\caches\8.10.2\transforms\dc91d156ee2c3af940b01700e30a193f\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:17:1-56:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\56ba12eab236d1ec99d3df00dd2653af\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\190dbc9e2399669a419270e552a4217e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\cc12bfe2d2d531b4ecd5d94ec8c88ecc\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -59,9 +60,15 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:22-62
 application
-ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:7:5-22:19
-INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:7:5-22:19
+ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:8:5-29:19
+INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:8:5-29:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\faf75ffa1b0d1d8db08a2de8635ab0e9\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\faf75ffa1b0d1d8db08a2de8635ab0e9\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sampu\.gradle\caches\8.10.2\transforms\8f922e34dd6d630cdb0fc7934aa2a985\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -72,6 +79,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\sampu\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\sampu\.gradle\caches\8.10.2\transforms\277b1fe583b19242e0a5fc49e8efbfe5\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.12.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\ab80fb921d888d63a7104e6ccf1d4e11\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.12.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\ab80fb921d888d63a7104e6ccf1d4e11\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sampu\.gradle\caches\8.10.2\transforms\67feade1a6c0f9a283cb2d0ce8b763e5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sampu\.gradle\caches\8.10.2\transforms\67feade1a6c0f9a283cb2d0ce8b763e5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\821dc43ddc499af9eb31ed27a5b8b5ba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
@@ -83,33 +92,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sampu\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\ab80fb921d888d63a7104e6ccf1d4e11\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:9-51
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:14:9-51
 activity#com.example.myapplication.MainActivity
-ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:14:9-21:20
+ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:15:9-22:20
 	android:exported
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:17:13-20:29
+ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.example.myapplication.PortraitCaptureActivity
+ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:23:9-28:63
+	android:screenOrientation
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:25:13-49
+	android:stateNotNeeded
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:26:13-42
+	android:windowSoftInputMode
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:28:13-60
+	android:theme
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:27:13-54
+	android:name
+		ADDED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:24:13-52
 uses-sdk
 INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sampu\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
@@ -174,6 +195,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\sampu\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\sampu\.gradle\caches\8.10.2\transforms\e3b5a8328f9cd43bdfe1a17c1a968fe8\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\sampu\.gradle\caches\8.10.2\transforms\dc91d156ee2c3af940b01700e30a193f\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\sampu\.gradle\caches\8.10.2\transforms\dc91d156ee2c3af940b01700e30a193f\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\56ba12eab236d1ec99d3df00dd2653af\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\56ba12eab236d1ec99d3df00dd2653af\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\190dbc9e2399669a419270e552a4217e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -250,6 +273,56 @@ uses-permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSI
 ADDED from [androidx.core:core:1.12.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\ab80fb921d888d63a7104e6ccf1d4e11\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\ab80fb921d888d63a7104e6ccf1d4e11\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\adb2125d685ed9e298de478e41501536\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sampu\.gradle\caches\8.10.2\transforms\821dc43ddc499af9eb31ed27a5b8b5ba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
