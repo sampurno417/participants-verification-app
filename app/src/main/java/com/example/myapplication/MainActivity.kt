@@ -87,9 +87,8 @@ class MainActivity : AppCompatActivity() {
                 textViewResult.text = """
                     ${response.message}
                     Name: ${response.name ?: "N/A"}
-                    Roll: ${response.roll ?: "N/A"}
-                    Year: ${response.year ?: "N/A"}
-                    College: ${response.college ?: "N/A"}
+                    PaperId: ${response.paperId ?: "N/A"}
+                    PaymentId: ${response.paymentId ?: "N/A"}
                 """.trimIndent()
             } catch (e: Exception) {
                 textViewResult.text = "Error: ${e.message}"
