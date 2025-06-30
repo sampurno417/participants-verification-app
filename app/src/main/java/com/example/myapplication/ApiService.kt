@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.adservices.adid.AdId
 import android.util.Log
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -41,7 +42,7 @@ interface ApiService {
                 response
             } catch (e: Exception) {
                 Log.e(TAG, "Error turning in student: ${e.message}", e)
-                ApiResponse("Network error: ${e.message}", null, null, null, null)
+                ApiResponse("Network error: ${e.message}", null, null, null)
             }
         }
     }
@@ -54,7 +55,7 @@ data class TurnInRequest(val id: String)
 data class ApiResponse(
     val message: String,
     val name: String?,
-    val roll: String?,
-    val year: String?,
-    val college: String?
+    val paperId: String?,
+    val paymentId: String?,
+
 )
